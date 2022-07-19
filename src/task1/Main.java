@@ -7,9 +7,9 @@ public class Main {
 
         int a = calculator.plus.apply(1, 2);
         int b = calculator.minus.apply(1, 1);
-        int c = calculator.devide.apply(1, 1);
+        int c = calculator.devide.apply(a, b);
 
-        calculator.println.accept(c);
+        calculator.println.accept(c);  //Если a = 3 и b = 0, то делить на 0 нельзя и выбрасывает ошибку.
 
     }
 }
