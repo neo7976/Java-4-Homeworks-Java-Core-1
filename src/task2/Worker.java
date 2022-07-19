@@ -10,7 +10,7 @@ public class Worker {
 
     public void start(){
         for (int i = 0; i < 100; i++) {
-            callback.onDone("Task " + i + " is done\n");
+            callback.onDone("Task " + i + " is done");
         }
     }
 
