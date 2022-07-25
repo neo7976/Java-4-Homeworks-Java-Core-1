@@ -15,6 +15,8 @@ public class JavaRush2 {
         System.out.println();
 
         List<Integer> list2 = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
-        list2.stream().map((x) -> x * x).forEach(System.out::println);
+        list2.stream()
+                .map((x) -> x * x + " ")
+                .forEach(System.out::print);
     }
 }
